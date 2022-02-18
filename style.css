@@ -74,6 +74,18 @@ main {
     padding: 8% 0;
 }
 
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 16px;
+    row-gap: 16px;
+    margin: 80px 0;
+}
+
+.button {
+    border: 1px solid #000;
+}
+
 
 /* Footer */
 
